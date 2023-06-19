@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>V2SK </title>
+ 
+
+
+
+  <meta name="description" content="V2SK empowers businesses with advanced IT solutions to stay updated, capitalize on investments, and achieve success. We offer tailored IT solutions, providing value without compromise, to optimize investments, enable informed decisions, and drive sustainable growth. Our collaborative partnership and personalized guidance focus on your business's success, leveraging emerging technologies for innovation. Explore our cost-efficient products, including cloud-based services, cybersecurity solutions, and data analytics tools, designed to help businesses stay ahead in the technology-driven era with expert guidance and support.">
+  <meta name="keywords" content="manufacturing execution system, MES, internet of things, IoT, embedded and automation, customer relationship management, CRM, lead management system, LMS, enterprise resource planning, ERP, management information systems, MIS, advanced IT solutions, business success, tailored IT solutions, value without compromise, optimizing investments, informed decisions, sustainable growth, collaborative partnership, personalized guidance, emerging technologies, innovation, cloud-based services, cybersecurity solutions, data analytics tools, technology-driven era, expert guidance, support, empowering businesses, cost-efficient products, stay ahead">
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Favicons -->
+  <link href="assets/img/qmQsNGIdTUcEXxj.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <script>
+    function searchContent() {
+      var searchTerm = document.getElementById('searchTerm').value; // Get the search term from the input field
+      var contentElements = document.getElementsByClassName('content'); // Get all elements with the class 'content'
+      
+      for (var i = 0; i < contentElements.length; i++) {
+        var content = contentElements[i].textContent; // Get the text content of each element
+        
+        if (content.toLowerCase().includes(searchTerm.toLowerCase())) {
+          contentElements[i].style.display = 'block'; // Show the element if it contains the search term
+        } else {
+          contentElements[i].style.display = 'none'; // Hide the element if it does not contain the search term
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
+          <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/logo.png" class="logo"></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li class="dropdown">
+                <a href="#products"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="./mes.html">MES (MANUFACTURING EXECUTION SYSTEM)</a></li>
+                  <li><a href="./iot.html">IOT (INTERNET OF THINGS)</a></li>
+                  <li><a href="./embeded.html">EMBEDDED AND AUTOMATION</a></li>
+                  <li><a href="./CRM.html">CRM ( CUSTOMER RELATIONSHIP MANAGEMENT)</a></li>
+                  <li><a href="./lms.html">LMS (LEAD MANAGEMENT SYSTEM)</a></li>
+                  <li><a href="./erp.html">ERP (ENTERPRISE RESOURCE PLANNING)</a></li>
+                  <li><a href="./mis.html">MIS (MANAGEMENT INFORMATION SYSTEMS)</a></li>
+                </ul>
+              </li>
+
+            
+              <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
+              <!-- <li><a class="nav-link scrollto" href="#Career">Career</a></li> -->
+              <!-- <li class="dropdown"><a href="#">Services<span></span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#">BUSINESS SECURITY</a></li>
+                  <li><a href="#">BUSINESS SERVICES</a></li>
+                  <li><a href="#">BUSINESS SOLUTION</a></li>
+                </ul>
+              </li> -->
+              <li><a class="nav-link scrollto" href="#contact">NEED ASSISTANCE</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+
+          <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
+
+     
+         
+
+
+
+
+
+
+
+
+      
+          <style>
+            .search-container {
+              position: relative;
+              display: inline-block;
+            }
+          
+            .search-results {
+              display: none;
+              position: absolute;
+              z-index: 1;
+              top: 100%;
+              left: 0;
+              min-width: 300px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              background-color: #f9f9f9;
+              padding: 8px;
+              overflow-y: auto;
+              max-height: 200px;
+            }
+          
+            .search-results ul {
+              list-style-type: none;
+              padding: 0;
+              margin: 0;
+            }
+          
+            .search-results li {
+              padding: 4px 8px;
+              cursor: pointer;
+            }
+          
+            .search-results li:hover {
+              background-color: #ddd;
+            }
+            .search-container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+#search-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+#search-button {
+  background-color: #f2f2f2;
+  border: none;
+  color: #666;
+  padding: 8px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #ddd;
+}
+          </style>
+       
+       <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button"><i class="fa fa-search"></i></button>
+        <div class="search-results" id="search-results"></div>
+      </div>
+      
+      <script>
+        const keywords = [
+          "MES",
+          "IOT",
+          "EMBEDDED AND AUTOMATION",
+          "CRM",
+          "LMS",
+          "ERP",
+          "MIS"
+        ];
+      
+        const searchInput = document.getElementById('search-input');
+        const searchButton = document.getElementById('search-button');
+        const searchResults = document.getElementById('search-results');
+      
+        function handleSearchInput() {
+          const searchTerm = searchInput.value.toLowerCase();
+          const matchingKeywords = keywords.filter(keyword =>
+            keyword.toLowerCase().includes(searchTerm)
+          );
+          displaySuggestions(matchingKeywords);
+        }
+      
+        function displaySuggestions(suggestions) {
+          searchResults.innerHTML = '';
+          if (suggestions.length === 0) {
+            searchResults.style.display = 'none';
+            return;
+          }
+      
+          suggestions.forEach(suggestion => {
+            const listItem = document.createElement('li');
+            listItem.textContent = suggestion;
+            listItem.addEventListener('click', () => {
+              searchInput.value = suggestion;
+              searchResults.style.display = 'none';
+            });
+            searchResults.appendChild(listItem);
+          });
+      
+          searchResults.style.display = 'block';
+        }
+      
+        function handleSearchButtonClick() {
+          const selectedKeyword = searchInput.value.toLowerCase();
+          const matchingKeyword = keywords.find(keyword =>
+            keyword.toLowerCase().replace(/ /g, '') === selectedKeyword.replace(/ /g, '')
+          );
+      
+          if (matchingKeyword) {
+            const encodedKeyword = encodeURIComponent(matchingKeyword);
+            const pagePath = getPagePath(encodedKeyword);
+            if (pagePath) {
+              window.location.href = pagePath;
+            }
+          }
+        }
+      
+        function getPagePath(encodedKeyword) {
+          const pagePaths = {
+            "MES": "./mes.html",
+            "IOT": "./iot.html",
+            "EMBEDDED%20AND%20AUTOMATION": "./embeded.html",
+            "CRM": "./CRM.html",
+            "LMS": "./lms.html",
+            "ERP": "./erp.html",
+            "MIS": "./mis.html"
+          };
+      
+          return pagePaths[encodedKeyword];
+        }
+      
+        searchInput.addEventListener('input', handleSearchInput);
+        searchButton.addEventListener('click', handleSearchButtonClick);
+      
+        // Close the search results if user clicks outside the search container
+        document.addEventListener('click', (event) => {
+          if (!event.target.closest('.search-container')) {
+            searchResults.style.display = 'none';
+          }
+        });
+      </script>
+      
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!-- <div class="content">
+     Your content goes here --
+  </div> -->
+  
+
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <!-- <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <h1>V2sk- Bussines Solutions</h1>
+          <h2>We are team of designers making websites </h2> -->
+  <!-- 
+          <a href="https://www.youtube.com/watch?v=6fiJxDecwj8" class="glightbox play-btn mb-4"></a> -->
+  <!--   
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">ERP</div>
+              <div class="swiper-slide">MES</div>
+              <div class="swiper-slide">LMS</div>
+              <div class="swiper-slide">CRM</div>
+              <div class="swiper-slide">MIS</div>
+              <div class="swiper-slide">IOT</div>
+              <div class="swiper-slide">Embedded</div>
+              <div class="swiper-slide">Automation</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr 1fr;
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 1000px;
+      padding: 20px;
+    }
+
+
+
+    .grid-item {
+      grid-column: span 1;
+      height: 420px;
+      grid-row: span 1;
+      text-align: center;
+      background-color: #fff;
+      padding: 20px;
+      padding-right: 30px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    #values .grid-item {
+      grid-column: span 1;
+      height: 300px;
+      grid-row: span 1;
+      text-align: center;
+      background-color: #fff;
+      padding: 20px;
+      padding-right: 30px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .grid-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .grid-item-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .grid-item-icon {
+      font-size: 3rem;
+      color: #e74c3c;
+      margin-bottom: 10px;
+    }
+
+    .grid-item h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .grid-item p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+
+    @media only screen and (max-width: 479px) {
+      .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        gap: 1rem;
+      }
+
+
+      .grid-item h3 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+      }
+
+      .grid-item p {
+        font-size: 1rem;
+        line-height: 1.3;
+      }
+    }
+
+
+    .values-section-title {
+      padding-bottom: 5px;
+      padding-left: 70px;
+    }
+
+    .values-section-title h2 {
+      font-size: 32px;
+      color: #272222;
+      font-weight: bold;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      position: relative;
+
+    }
+
+    .values-section-title h2::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: #009961;
+      bottom: 0;
+      left: 0;
+    }
+
+    .values-section-title p {
+      margin-bottom: 0;
+      color: #352f2f;
+      font-size: 15px;
+    }
+  </style>
+
+
+
+
+  <style>
+    .ball {
+      background-image: linear-gradient(to bottom right, #91defe, #99c0f9, #bdb6ec, #d7b3e3, #efb3d5, #f9bccc);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .ball-container {
+      animation: float 10s infinite;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      position: absolute;
+      background: radial-gradient(circle at 75% 30%, #ffffff 5px, aqua 8%, darkblue 60%, aqua 100%);
+      box-shadow: inset 0 0 20px #7bc6af, inset 10px 0 46px #7bc6af, inset 88px 0px 60px #2f7d65, inset -20px -60px 100px #fde9ea, inset 0 50px 140px #fde9ea, 0 0 90px #a4d8d8;
+      ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Oswald';
+      font-weight: 900;
+      overflow: visible;
+    }
+
+    .row img {
+      border-radius: 13px;
+    }
+
+    /* Add individual positioning for each bubble */
+
+    .post.bubble:nth-child(1) {
+      transform: rotate(0deg) translateY(-90px) rotate(0deg);
+      top: -91px;
+      left: -213px;
+      animation-delay: 1.2s;
+    }
+
+    .post.bubble:nth-child(2) {
+      transform: rotate(45deg) translateY(-90px) rotate(-45deg);
+      top: -102px;
+      left: 61px;
+      animation-delay: -4.8s;
+    }
+
+    .post.bubble:nth-child(3) {
+      transform: rotate(90deg) translateY(-90px) rotate(-90deg);
+      top: -136px;
+      left: 421px;
+      animation-delay: -2.1s;
+    }
+
+    .post.bubble:nth-child(4) {
+      transform: rotate(135deg) translateY(-90px) rotate(-135deg);
+      top: -108px;
+      left: 749px;
+      animation-delay: 1.8s;
+    }
+
+    .post.bubble:nth-child(5) {
+      transform: rotate(180deg) translateY(-90px) rotate(-180deg);
+      top: -137px;
+      left: -74px;
+      animation-delay: 1.9s;
+    }
+
+    .post.bubble:nth-child(6) {
+      transform: rotate(225deg) translateY(-90px) rotate(-225deg);
+      top: -84px;
+      left: 528px;
+      animation-delay: -2.5s;
+    }
+
+    .post.bubble:nth-child(7) {
+      transform: rotate(270deg) translateY(-90px) rotate(-270deg);
+      top: -113px;
+      left: 295px;
+      animation-delay: 0.6s;
+
+    }
+
+    .post.bubble:nth-child(8) {
+      transform: rotate(315deg) translateY(-90px) rotate(-315deg);
+      top: -64px;
+      left: 628px;
+      animation-delay: -0.3s;
+    }
+
+    .post.bubble {
+      position: absolute;
+      animation: float 5s infinite;
+      overflow: visible;
+    }
+
+    @keyframes float {
+      0% {
+        transform: rotate(0deg) translateY(0px) rotate(0deg);
+      }
+
+      25% {
+        transform: rotate(180deg) translateY(-150px) rotate(-180deg);
+      }
+
+      50% {
+        transform: rotate(360deg) translateY(0px) rotate(-360deg);
+      }
+
+      75% {
+        transform: rotate(540deg) translateY(150px) rotate(-540deg);
+      }
+
+      100% {
+        transform: rotate(720deg) translateY(0px) rotate(-720deg);
+      }
+    }
+
+    .post.bubble.collide {
+      animation-name: collide;
+      animation-duration: 1s;
+      animation-timing-function: linear;
+      animation-iteration-count: 2;
+    }
+
+    @keyframes collide {
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-50px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    .post.bubble.bounce {
+      animation-name: bounce;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+      animation-iteration-count: 1;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(10px);
+      }
+
+      50% {
+        transform: translateY(-20px);
+      }
+
+      75% {
+        transform: translateY(8pxpx);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    .shadow {
+      background: #b490b2;
+      width: 150px;
+      height: 40px;
+      top: 70%;
+      animation: expand 4s infinite;
+      position: absolute;
+      border-radius: 50%;
+    }
+
+    @keyframes expand {
+
+      20%,
+      100% {
+        transform: scale(0.2);
+      }
+
+      50% {
+        transform: scale(4);
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+      .ball-container {
+        animation: float 4.5s ease-in-out infinite;
+        height: 120px;
+        width: 120px;
+        background: radial-gradient(circle at 75% 30%, #ffffff 5px, aqua 8%, darkblue 60%, aqua 100%);
+        box-shadow: inset 0 0 20px #7bc6af, inset 10px 0 46px #7bc6af, inset 88px 0px 60px #2f7d65, inset -20px -60px 100px #fde9ea, inset 0 50px 140px #fde9ea, 0 0 90px #a4d8d8;
+      }
+
+      .ball {
+        background-image: linear-gradient(to bottom right, #91defe, #99c0f9, #bdb6ec, #d7b3e3, #efb3d5, #f9bccc);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .shadow {
+        background: #b490b2;
+        width: 90px;
+        height: 20px;
+        top: 78%;
+        animation: expand 3s infinite;
+        position: absolute;
+        border-radius: 50%;
+      }
+
+      @keyframes expand {
+
+        20%,
+        100% {
+          transform: scale(0.2);
+        }
+
+        50% {
+          transform: scale(4);
+        }
+      }
+
+      .ball-container {
+        height: 120px;
+        width: 120px;
+      }
+
+      .post.bubble:nth-child(1) {
+        top: -272px !important;
+        left: 52px !important;
+      }
+
+      .post.bubble:nth-child(2) {
+        top: -240px !important;
+        left: 144px !important;
+      }
+
+      .post.bubble:nth-child(3) {
+        top: -123px !important;
+        left: 29px !important;
+      }
+
+      .post.bubble:nth-child(4) {
+        top: -115px !important;
+        left: 180px !important;
+      }
+
+      .post.bubble:nth-child(5) {
+        top: 74px !important;
+        left: 210px !important;
+      }
+
+      .post.bubble:nth-child(6) {
+        top: 36px !important;
+        left: 75px !important;
+      }
+
+      .post.bubble:nth-child(7) {
+        top: 47px !important;
+        left: 54px !important;
+      }
+
+      .post.bubble:nth-child(8) {
+        top: 89px !important;
+        left: 133px !important;
+      }
+    }
+  </style>
+
+
+
+  <section id="hero" class="ball">
+    <div class="container contact">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <!-- <h1>V2sk- Business Solutions</h1>
+<h2>We are a team of designers creating websites</h2> -->
+
+          <div class="swiper-containerr">
+            <div class="swiper-wrapper">
+              <div class="post bubble ball-container">ERP</div>
+              <div class="post bubble ball-container">MES</div>
+              <div class="post bubble ball-container">LMS</div>
+              <div class="post bubble ball-container">CRM</div>
+              <div class="post bubble ball-container">MIS</div>
+              <div class="post bubble ball-container">IOT</div>
+              <div class="post bubble ball-container">Embedded</div>
+              <div class="post bubble ball-container">Automation</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- ==========================End Hero============================================= -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container content">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>In the present advanced technology-driven era, it is basic to stay updated with the latest solutions,
+            to capitalize on your speculations, and keep your business pushing ahead. So whether you are new to working
+            with an IT Partner,
+            or have worked with one for years, with V2SK you will observe cost-proficient help,
+            direction and the motivation you really want to give your business an upper hand.</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              V2SK: Empowering Business with Advanced IT Solutions
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Stay updated. Capitalize on investments. V2SK offers
+                cost-efficient support and guidance for business success.</li>
+              <li><i class="ri-check-double-line"></i> Tailored IT solutions. Value without compromise. V2SK optimizes
+                investments, enabling informed decisions and sustainable growth.</li>
+              <li><i class="ri-check-double-line"></i>Collaborative partnership. Personalized guidance. V2SK's
+                motivation is your business's success, leveraging emerging technologies for innovation.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              When you partner with V2SK, you gain more than just technical expertise. We become an extension of your
+              team,
+              working closely with you to understand your goals and objectives.
+              Our collaborative approach allows us to provide personalized guidance that aligns with your business
+              strategy,
+              enabling you to make strategic IT decisions with confidence.
+            </p>
+            <a href="#home" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+
+
+
+
+
+
+
+
+    <!-- ======= products Section ======= -->
+    <div class="stypro">
+      <section id="products" class="products">
+        <div class="container content">
+
+          <div class="section-title pro">
+            <h2>Products</h2>
+            <p>V2SK offers a range of cutting-edge technology products to help businesses streamline operations and
+              drive growth, including solutions for manufacturing, automation, and digitalization.
+              With V2SK, you can stay ahead and take your business to new heights..</p>
+          </div>
+
+
+
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+
+                <h4><a href="">Manufacturing Execution System (MES)</a></h4>
+                <img src="./assets/img/products/mes-2.jpg" class="img-fluid" alt="">
+                <a href="./mes.html"><button type="button" class="btn btn-outline-info">MORE DETAILS </button></a>
+              </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="icon-box">
+                <h4><a href="">Internet Of Things Based Application (IOT)</a></h4>
+                <img src="assets/img/products/iot-dig.png" class="img-fluid" alt="">
+                <a href="./iot.html"><button type="button" class="btn btn-outline-info">MORE DETAILS </button></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="icon-box">
+                <h4><a href="">Embedded System</a></h4><br>
+                <img src="assets/img/products/embedded-system1 - Copy.png" class="img-fluid" alt="">
+                <a href="./embeded.html"><button type="button" class="btn btn-outline-info">MORE DETAILS </button></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <h4><a href="">Leads Management System (LMS)</a></h4>
+                <img src="assets/img/products/LMS-genrateLead.jpg" class="img-fluid" alt="">
+                <a href="./lms.html"><button type="button" class="btn btn-outline-info">MORE DETAILS </button></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <h4><a href="">Enterprise Resource Planning (ERP)</a></h4>
+                <img src="assets/img/products/erp3.jpg" class="img-fluid" alt="">
+                <a href="./erp.html"><button type="button" class="btn btn-outline-info">MORE DETAILS </button></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div class="icon-box">
+                <h4><a href="">Customer Relationship Management (CRM)</a></h4>
+                <img src="assets/img/products/purpose-crm.jpg" class="img-fluid" alt="">
+                <a href="./CRM.html"><button type="button" class="btn btn-outline-info">MORE DETAILS </button></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 ss ">
+              <div class="icon-box ">
+                <h4><a href="">Management Information System (MIS)</a></h4>
+                <img src="assets/img/products/mis-bg.jpg" class="img-fluid" alt="">
+                <a href="./mis.html"><button type="button" class="btn btn-outline-info">MORE DETAILS </button></a>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 ">
+              <div class="icon-box">
+                <h4><a href=""> Automation</a></h4><br>
+                <img src="assets/img/products/Automation-mn.jpg" class="img-fluid" alt="">
+                <a href="./embeded.html"><button type="button" class="btn btn-outline-info">MORE DETAILS </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </main>
+  <!-- End product Section -->
+
+
+  <!-- ============================== values section ============================================================ -->
+
+
+
+
+  <section id="about" class="about" style="    padding: 29px 0px;">
+    <div class="container content">
+
+      <div id="values" class="section-title">
+        <h2>Values</h2>
+        <p>V2SK provides cost-efficient products including cloud-based services, cybersecurity solutions,
+          and data analytics tools to help businesses stay ahead in the technology-driven era with expert guidance and
+          support.</p> <br>
+      </div>
+    </div>
+  </section>
+  <section id="values" class="values">
+    <div class="grid-container">
+
+
+
+      <div class="grid-item">
+        <div class="grid-item-content">
+          <i class="bi bi-hand-thumbs-up grid-item-icon"></i>
+          <h3>Customer Focus</h3>
+          <p>We are here to help and support our customers to succeed together.</p>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-content">
+          <i class="bi bi-shield-lock-fill grid-item-icon"></i>
+          <h3>Integrity</h3>
+          <p>Our commitment: maintain high levels of integrity at all times.</p>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-content">
+          <i class="bi bi-credit-card-2-front-fill grid-item-icon"></i>
+          <h3>Transparency</h3>
+          <p>We act dedicate, honestly, transparently without any hidden agendas.</p>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-content">
+          <i class="bi bi-people-fill grid-item-icon"></i>
+          <h3>Teamwork</h3>
+          <p>We are more effective when we work together and communicate well with each other.</p>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-content">
+          <i class="bi bi-star-fill grid-item-icon"></i>
+          <h3>Quality</h3>
+          <p>We believe in our product quality and our process excellence.</p>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-content">
+          <i class="bi bi-emoji-smile grid-item-icon"></i>
+          <h3>Trust and Respect</h3>
+          <p>We believe that trust and respect are essential for business growth.</p>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-content">
+          <i class="bi bi-gear-fill grid-item-icon"></i>
+          <h3>Sincerity at work</h3>
+          <p>We work hard with sincerity and accuracy to align with promises and actions.</p>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-content">
+          <i class="bi bi-arrow-repeat grid-item-icon"></i>
+          <h3>Continuous Improvement</h3>
+          <p>We try to improve product quality and communicate effectively.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ============================== end values section ============================================================ -->
+
+  <!-- ======= Cta Section ======= -->
+  <!-- <section id="cta" class="cta">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-9 text-center text-lg-start">
+              <h3>Call To Action</h3>
+              <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+            </div>
+            <div class="col-lg-3 cta-btn-container text-center">
+              <a class="cta-btn align-middle" href="#">Call To Action</a>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    </section>End Cta Section -->
+
+  <!-- ======= Features Section ======= -->
+  <!-- <section id="features" class="features">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="icon-box mt-5 mt-lg-0">
+              <i class="bx bx-receipt"></i>
+              <h4>Est labore ad</h4>
+              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Harum esse qui</h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-images"></i>
+              <h4>Aut occaecati</h4>
+              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-shield"></i>
+              <h4>Beatae veritatis</h4>
+              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+            </div>
+          </div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");'>
+          </div>
+        </div>
+
+      </div>
+    </section>End Features Section -->
+
+  <!-- ======= Clients Section ======= -->
+  <section id="clients" class="clients">
+    <div class="container">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-2.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-4.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-5.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-6.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-7.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-8.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-9.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-10.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-11.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-12.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-13.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-14.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-15.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-16.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <!-- End Clients Section -->
+  <!-- ======= Counts Section ======= -->
+  <section id="counts" class="counts">
+    <div class="container">
+
+      <div class="text-center title">
+        <h3>What we have achieved so far</h3>
+
+      </div>
+
+      <div class="row counters position-relative">
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="2014" data-purecounter-end="2014" data-purecounter-duration="1"
+            class="purecounter"></span>
+          <p>Since</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+
+          <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1"
+            class="purecounter"></span>
+          <p>Delivered Projects</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
+            class="purecounter"></span>
+          <p>On Going Projects</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1"
+            class="purecounter"></span>
+          <p>Happy Clients</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Counts Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <!-- <section id="portfolio" class="portfolio">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+              consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+              sit
+              in iste officiis commodi quidem hic quas.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-web">Web</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>End Portfolio Section -->
+
+
+
+  <!-- ======= Faq Section ======= -->
+  <section id="faq" class="faq">
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+          <div class="content">
+            <h3>Frequently Asked <strong>Questions</strong></h3>
+            <!-- <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                </p> -->
+          </div>
+
+          <div class="accordion-list">
+            <ul>
+              <li>
+                <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1">Q.How long will it
+                  take for V2SK to develop my software?<i class="bx bx-chevron-down icon-show"></i><i
+                    class="bx bx-chevron-up icon-close"></i></a>
+                <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                  <p>
+                    Answer: The development timeline for your software will depend on the complexity of the project
+                    and the specific requirements you have. V2SK's team will work closely with you to understand
+                    your needs and provide an estimated timeline for the development process.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">Q.How much will it
+                  cost to develop software with V2SK?<i class="bx bx-chevron-down icon-show"></i><i
+                    class="bx bx-chevron-up icon-close"></i></a>
+                <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                  <p>
+                    Answer: The cost of software development will depend on the scope of the project and the
+                    specific features and requirements you have. V2SK will work with you to understand your budget
+                    and provide a cost estimate for the project.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">Q.What kind of
+                  support can I expect after the software is developed and deployed? <i
+                    class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                  <p>
+                    Answer: V2SK provides ongoing support for software solutions they develop. They offer
+                    maintenance and updates to ensure the software continues to function as intended and address any
+                    issues that may arise. They also provide training and support to help you get the most out of
+                    your software.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
+          style='background-image: url("assets/img/faq.jpg");'>&nbsp;</div>
+      </div>
+
+    </div>
+  </section><!-- End Faq Section -->
+
+  <!--====================== Career section ========================================-->
+
+
+  <section id="Career" class="Career">
+    <div class="container">
+
+      <div class="section-title row align-items-center">
+        <div class="col-lg-6">
+          <h2>Career</h2>
+
+
+
+          <p>Accelerate your career with V2SK. We go beyond empowering businesses with advanced IT solutions - we
+            provide a platform for individuals to enhance their career prospects and seize new job opportunities. We
+            understand the significance of personal and professional growth, and we are dedicated to supporting
+            individuals in their journey towards success.</p>
+          <p>When you join V2SK, you're not just finding a job. You're becoming part of a dynamic and collaborative team
+            that values innovation, creativity, and excellence. As an employee at V2SK, you'll have the chance to
+            upskill, expand your knowledge, and work on cutting-edge projects that push the boundaries of technology.
+          </p>
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0" >
+          <!-- <p>Join us today and unlock your potential:</p><br>
+
+
+
+
+          <div class="row content">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="ri-check-double-line"></i> Accelerate your career growth with V2SK.</li>
+                <li><i class="ri-check-double-line"></i> Explore new job opportunities and expand your skills.</li>
+                <li><i class="ri-check-double-line"></i>Join a dynamic and collaborative team.</li>
+                <li><i class="ri-check-double-line"></i>Work on cutting-edge projects that push technological
+                  boundaries.</li>
+              </ul>
+            </div>
+          </div> -->
+
+
+
+          <style>
+            .email-link {
+              position: relative;
+              display: inline-block;
+              text-decoration: none;
+              color: #6b8aa2;
+              margin-left: 20px;
+              background: #f5c55c;
+    border-color: #f5c55c;
+            }
+
+            .email-link::after {
+              content: "\f003";
+              position: absolute;
+              top: 1px;
+              right: -20px;
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+              font-size: 14px;
+              line-height: 1;
+              color: #f5c55c;
+              opacity: 0;
+              transition: opacity 0.3s ease;
+            }
+
+            .email-link:hover {
+  background: #f7d487;
+
+  text-decoration: none;
+}
+
+            .email-link:hover::after {
+              opacity: 1;
+            }
+          </style>
+
+          <div style="font-family: Arial, sans-serif; line-height: 1.5; padding: 20px;">
+            <!-- <h2 style="color: #333; margin: 2px 0px 7px 360px;">Welcome to your career page!</h2> -->
+            <p style="color: #555; margin-top: 120px;">We appreciate your interest in staying updated on the latest job-related information
+              and opportunities. We are constantly searching for suitable positions and career development options for
+              you. To assist us in this process, we kindly request you to submit all your details and resume to our
+              email address:    <br> <br> 
+              
+             
+                  
+
+
+
+
+                 
+                    <style>
+                      .truck-button {
+                        padding: 8px 16px;
+                        width: auto;
+                        height: auto;
+                        cursor: pointer;
+                        text-align: center;
+                        position: relative;
+                        border-radius: 4px;
+                      }
+                      
+                      @keyframes emailAnimation {
+                        0% {
+                          transform: translateX(0);
+                          opacity: 0;
+                        }
+                        50% {
+                          transform: translateX(80%);
+                          opacity: 0.5;
+                        }
+                        100% {
+                          transform: translateX(100%);
+                          opacity: 1;
+                        }
+                      }
+                      
+                      .truck-button.clicked .email-icon {
+                        animation: emailAnimation 1s linear forwards;
+                      }
+                      
+                      .email-icon {
+                        width: 20px;
+                        height: 30px;
+                        background-image: url("https://cdn-icons-png.flaticon.com/512/2989/2989993.png");
+                        background-size: cover;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        opacity: 0; /* Add initial opacity to hide the icon */
+                      }
+                    </style>
+               
+               <button class="truck-button email-link btn" onclick="window.location.href='mailto:consultants@v2sk.in'">
+                <span class="default">consultants@v2sk.in</span>
+                <div class="email-icon"></div>
+              </button>
+              
+                  
+                    <script>
+                      document.querySelectorAll(".truck-button").forEach(button => {
+                        button.addEventListener("click", e => {
+                          e.preventDefault();
+                          button.classList.add("clicked");
+                          setTimeout(() => {
+                            button.classList.remove("clicked");
+                          }, 1000); // Reset animation after 1 second
+                        });
+                      });
+                    </script>
+              
+                  
+
+
+
+
+
+                 <br> <br> Please ensure that you neatly organize
+              and format all the information within the email.</p>
+            <p style="color: #555;">Thank you for choosing us as your career partner. We look forward to reviewing your
+              submission and helping you find the best job opportunities.</p>
+          </div>
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+          <!-- <a href="./Career.html" class="get-started-btn scrollto">Apply Now</a> -->
+        
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .Career .content ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .Career .content ul li {
+      padding-left: 28px;
+      position: relative;
+    }
+
+    .Career .content ul li+li {
+      margin-top: 10px;
+    }
+
+    .Career .content ul i {
+      position: absolute;
+      left: 0;
+      top: 2px;
+      font-size: 20px;
+      color: #009961;
+      line-height: 1;
+    }
+
+    .Career .content p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+
+
+
+
+
+
+
+  <!-- ================ career end=============================================== -->
+
+
+
+
+
+
+  <!-- ======= Pricing Section ======= -->
+  <!-- <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box recommended">
+              <span class="recommended-badge">Recommended</span>
+              <h3>Business</h3>
+              <h4><sup>$</sup>19<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="box">
+              <h3>Developer</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>End Pricing Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+
+      </div>
+    </div>
+
+    <div>
+      <iframe style="border:0; width: 100%; height: 350px;"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28012.08311614197!2d77.3923831!3d28.6130626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDIzJzE0LjAiTiA3N8KwMTInMTAuMyJF!5e0!3m2!1sen!2sin!4v1652126129835!5m2!1sen!2sin"
+        frameborder="0" allowfullscreen></iframe>
+
+    </div>
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-lg-8">
+          <img src="assets/img/contact.png" height="300px" width="433px" alt="">
+        </div>
+        <div class="col-lg-4">
+          <div class="info">
+            <div class="address">
+              <i class="ri-map-pin-line"></i>
+              <h4>Location:</h4>
+              <p>Aravalli Tower, Mandi Estate, Mandi Village, New Delhi,110047,India.</p>
+            </div>
+            <div class="email">
+              <i class="ri-mail-line"></i>
+              <h4>Email:</h4>
+              <p>consultants@v2sk.in</p>
+            </div>
+            <div class="phone">
+              <i class="ri-phone-line"></i>
+              <h4>Call:</h4>
+              <p>+91 9953127347</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Contact Section -->
+
+
+
+  <!-- <div class="col-lg-8 mt-5 mt-lg-0">
+
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+
+        </div> -->
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="bg-dark text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>V2SK</h3>
+            </div>
+            <div class="col-md-12">
+              <ul style="list-style-type: none; padding-left: 0;">
+                <li><a href="#">HELPFUL LINKS</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">CAREER</a></li>
+                <li><a href="#">REACH TO US</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4>CONNECT WITH US</h4>
+          <div class="social-links">
+            <a href="https://twitter.com/V2sktechno" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.facebook.com/V2SKTechnoPvtLtd/?ref=pages_you_manage" class="facebook"><i
+                class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/v2sktechnopvtltd/" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCOwZQa8hH-12AUlxsZFzWGw" class="youtube"><i
+                class="bx bxl-youtube"></i></a>
+            <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F36156963%2Fadmin%2F"
+              class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4>CONTACT INFORMATION</h4>
+          <div class="contact-info">
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <a href="#" class="bx bx-envelope"></a>
+                Email
+                <p><a href="mailto:consultants@v2sk.in">consultants@v2sk.in</a></p>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="bx bx-phone"></a>
+                Phone
+                <p><a href="tel:+919953127347">+91 9953127347</a></p>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="bx bx-map"></a>
+                Address
+                <p class="mb-4">Aravalli Tower, Mandi Estate, Mandi Village, New Delhi, 110047, India.</p>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="bx bx-globe"></a>
+                Website
+                <p><a href="http://www.v2sk.in">www.v2sk.in</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2023 V2SK. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

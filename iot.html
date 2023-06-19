@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>IOT -V2SK</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <!-- Favicons -->
+  <link href="assets/img/qmQsNGIdTUcEXxj.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <style>
+
+/* hero */
+h2 {
+      text-align: center;
+      padding: 10px;
+      margin: 20px 46px;
+      background-color: #f5c55c50;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      margin-left: 30px;
+    }
+    /* #typeIOT h2 {
+      text-align: center;
+      padding: 10px;
+      margin: 20px 0;
+      background-color: #009961ac;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      
+    } */
+
+    #hero .container {
+      background-color: rgba(43, 175, 190, 0.436);
+      padding: 20px;
+      border-radius: 20px;
+      margin-top: 60px;
+    }
+
+    #hero h1 {
+      font-size: 2.5rem;
+      color: #ebe7e7;
+    }
+
+    #hero p {
+      font-size: 1.4rem;
+      color: #f0eaea;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 767px) {
+      #hero {
+        background-size: contain;
+      }
+
+      #hero .container {
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 60px;
+      }
+
+      #hero h1 {
+        font-size: 1.8rem;
+      }
+
+      #hero p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+      .mes-image {
+            max-width: 100%; /* Adjust the image width as needed */
+            height: auto;
+        }
+    }
+/* end hero */
+
+
+
+
+/* ==================================================================================  */
+/*                              IOT why-section                                       */
+/* ==================================================================================  */
+@media (min-width: 992px) {
+  .col-lg-8 {
+    text-align: left;
+    width: 66.6667%;
+    float: left;
+  }
+  
+  .col-lg-4 {
+    text-align: right;
+    width: 33.3333%;
+    float: right;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-lg-8,
+  .col-lg-4 {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.why-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.why-section p {
+  position: relative;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.why-section p:before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.why-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+/* ========================================================================================================= */
+
+
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    margin-bottom: 40px; /* Add gap between sections */
+  }
+
+  .col-lg-4:last-child {
+    margin-bottom: 0; /* Remove bottom margin of the last column */
+  }
+
+  .col-lg-4 {
+    text-align: left; /* Align to the left */
+    width: 33.3333%;
+    float: left;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-lg-4 {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.challenges-sections {
+  
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0; /* Add vertical padding */
+}
+
+.challenges-sections h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d0e3db;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.challenges-sections p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e9e4e4;
+  text-align: left;
+  margin-bottom: 15px;
+}
+#benefits ul li {
+ 
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+
+}
+
+.iot-devices-list {
+  padding: 0;
+  list-style: none;
+  text-align: left; /* Align list to the left */
+}
+
+.iot-devices-list li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 10px;
+  color: #e6e1e1;
+}
+
+
+
+.iot-devices-list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+/*                                                      IOT    challenges-section */
+
+/* ======================================================================================================= */
+
+
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    margin-bottom: 40px; /* Add gap between sections */
+  }
+
+  .col-lg-4:last-child {
+    margin-bottom: 0; /* Remove bottom margin of the last column */
+  }
+
+  .col-lg-4 {
+    text-align: left; /* Align to the left */
+    width: 33.3333%;
+    float: left;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-lg-4 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.challenges-section {
+  background-image: url('/assets/img/backgrn.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0; /* Add vertical padding */
+}
+
+.challenges-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d0e3db;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.challenges-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e9e4e4;
+  text-align: left;
+  margin-bottom: 15px;
+}
+#benefits ul li {
+ 
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+
+}
+
+.iot-devices-list {
+  padding: 0;
+  list-style: none;
+  text-align: left; /* Align list to the left */
+}
+
+.iot-devices-list li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 10px;
+  color: #e6e1e1;
+}
+
+
+
+.iot-devices-list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.challenges-section img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* ====================================================================================================
+                                                                IOT cARD Grid                         
+=========================================================================================================*/
+
+  </style>
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
+          <h1 class="logo me-auto me-lg-0">
+            <a href="index.html">
+              <img src="assets/img/logo.png" class="logo" />
+              </a>
+              </h1>
+
+              <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                  <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
+                  <li><a class="nav-link scrollto" href="./index.html#about">About</a></li>
+                  <li class="dropdown ">
+                    <a href="#products"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="./mes.html">MES (MANUFACTURING EXECUTION SYSTEM)</a></li>
+                      <li><a href="./iot.html">IOT (INTERNET OF THINGS)</a></li>
+                      <li><a href="./embeded.html">EMBEDDED AND AUTOMATION</a></li>
+                      <li><a href="./CRM.html">CRM ( CUSTOMER RELATIONSHIP MANAGEMENT)</a></li>
+                      <li><a href="./lms.html">LMS (LEAD MANAGEMENT SYSTEM)</a></li>
+                      <li><a href="./erp.html">ERP (ENTERPRISE RESOURCE PLANNING)</a></li>
+                      <li><a href="./mis.html">MIS (MANAGEMENT INFORMATION SYSTEMS)</a></li>
+                    </ul>
+                  </li>
+    
+                  <!-- <li><a class="nav-link scrollto" href="./Career.html">Career</a></li> -->
+                  <!-- <li class="dropdown"><a href="#">Services<span></span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="#">BUSINESS SECURITY</a></li>
+                      <li><a href="#">BUSINESS SERVICES</a></li>
+                      <li><a href="#">BUSINESS SOLUTION</a></li>
+                    </ul> -->
+                  </li>
+                  <li><a class="nav-link scrollto" href="./index.html#contact">NEED ASSISTANCE</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+              </nav>
+          <!-- <a href="./index.html#about" class="get-started-btn scrollto">Get Started</a> -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+<!-- ================================================================================ 
+                                  heroo section
+=====================================================================================-->
+<section id="hero" class="bg-primary py-5 iot-image" style="width: 100%; height: 100vh; background-image: url('./assets/img/secondPage/iot-bg.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; position: relative;">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">
+        <h1 class="fw-bold">Internet of Things (IoT):</h1>
+        <p style="white-space: normal;">The Internet of Things (IoT) describes the network of physical objects “things” — that are inserted with sensors, programming, and different advancements to interface and trading information with different gadgets and frameworks over the web.</p>
+        <p style="white-space: normal;">The Internet of Things (IoT) connects physical objects embedded with sensors, programming, and advanced technologies to exchange data with other devices and systems over the internet. This network enables seamless communication and information sharing, revolutionizing various industries.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <section id="iot-features" class="section-bg" style="background-color: rgb(255, 255, 255); position: relative">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <div class="iot-description">
+            
+            <h2><strong>WHAT IS INTERNET OF THINGS (IOT)?</strong></p></h2>
+            <p>
+              The Internet of Things (IoT) is a system of interrelated
+              physical devices, vehicles, buildings, and other items embedded
+              with sensors, software, and network connectivity that enables
+              them to collect and exchange data.
+            </p>
+            <p>
+              IoT systems use sensors and other hardware to collect data,
+              which is then processed and analyzed by software to identify
+              patterns and make decisions. IoT technology has numerous
+              applications, from smart homes and cities to industrial
+              automation and agriculture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <i class="bi bi-gear-wide float-left" style="position: absolute; top: 0; left: 0; font-size: 32px"></i>
+    <i class="bi bi-gear-wide float-right" style="position: absolute; bottom: 0; right: 0; font-size: 32px"></i>
+    <i class="bi bi-gear-fill float-left" style="position: absolute; bottom: 0; left: 0; font-size: 32px"></i>
+    <i class="bi bi-gear-fill float-right" style="position: absolute; top: 0; right: 0; font-size: 32px"></i>
+  </section>
+ <section id="value" class="values" style="padding-right: 90px;">
+  <div class="value-section-title">
+    <h2 id="typeIOT" style="margin-right: -50px;">Type of IoT</h2>
+
+    <div class="grid-container" style="display: flex; flex-wrap: nowrap; overflow-x: auto;">
+      <div class="grid-item" style="flex: 0 0 auto; width: 320px;">
+        <div class="grid-item-content">
+          <i class="bi bi-hand-thumbs-up grid-item-icon"></i>
+          <h3>Consumer IoT</h3>
+          <p>This type focuses on everyday consumer use. Examples include voice recognition software, lighting fixtures, and home appliances.</p>
+        </div>
+      </div>
+
+      <div class="grid-item" style="flex: 0 0 auto; width: 320px;">
+        <div class="grid-item-content">
+          <i class="bi bi-shield-lock-fill grid-item-icon"></i>
+          <h3>Commercial IoT</h3>
+          <p>Commercial IoT finds its use primarily in the transportation and healthcare sectors. It includes monitoring systems and advanced pacemakers, among others.</p>
+        </div>
+      </div>
+
+      <div class="grid-item" style="flex: 0 0 auto; width: 320px;">
+        <div class="grid-item-content">
+          <i class="bi bi-credit-card-2-front-fill grid-item-icon"></i>
+          <h3>Military Things (IoMT)</h3>
+          <p>IoMT is used mainly for the military's development of IoT technologies. It involves human-wearable biometrics for use in battle and surveillance robots.</p>
+        </div>
+      </div>
+
+      <div class="grid-item" style="flex: 0 0 auto; width: 320px;">
+        <div class="grid-item-content">
+          <i class="bi bi-people-fill grid-item-icon"></i>
+          <h3>Industrial Internet of Things (IIoT)</h3>
+          <p>IIoT is extensively used in industrial settings, particularly in manufacturing and energy sectors. Examples include smart agriculture, digital control systems.</p>
+        </div>
+      </div>
+
+      <div class="grid-item" style="flex: 0 0 auto; width: 320px;">
+        <div class="grid-item-content">
+          <i class="bi bi-star-fill grid-item-icon"></i>
+          <h3>Infrastructure IoT</h3>
+          <p>Infrastructure IoT is designed for use in smart cities. It involves the deployment of sensors and management systems for infrastructure monitoring.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+.grid-item {
+  grid-column: span 1;
+  height: 420px;
+  grid-row: span 1;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  padding-right: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+#values .grid-item {
+  grid-column: span 1;
+  height: 300px;
+  grid-row: span 1;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  padding-right: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-item-icon {
+  font-size: 3rem;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.grid-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.grid-item p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 479px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+
+
+  .grid-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .grid-item p {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+}
+
+
+.values-section-title {
+  padding-bottom: 5px;
+  padding-left: 70px;
+}
+
+.values-section-title h2 {
+  font-size: 32px;
+  color: #272222;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  
+}
+
+.values-section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #009961;
+  bottom: 0;
+  left: 0;
+}
+
+.values-section-title p {
+  margin-bottom: 0;
+  color: #352f2f;
+  font-size: 15px;
+}
+
+
+</style>
+
+<!-- ====================================================why-section================================================= -->
+
+<section id="why" class="why-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Why is IoT important?</h2>
+        <p>
+          IoT has become increasingly important because it enables devices
+          to communicate with each other and share data, leading to more
+          efficient and informed decision-making. This has the potential to
+          revolutionize many industries, including healthcare,
+          transportation, and manufacturing.
+        </p>
+        <p>
+          By using IoT devices, businesses and individuals can monitor and
+          control a wide range of processes, from the temperature of a
+          refrigerator to the performance of a production line. This allows
+          for greater accuracy, improved safety, and reduced costs.
+        </p>
+        <p>
+          IoT also has the potential to make cities smarter and more
+          efficient by optimizing energy usage, improving traffic flow, and
+          enhancing public safety. By collecting data from sensors and
+          analyzing it in real-time, cities can make informed decisions
+          about how to allocate resources and improve services for their
+          residents.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <img src="./assets/img/secondPage/iot dg.jpeg" class="img-fluid rounded" alt="Image" style="height: 100%;">
+      </div>
+     
+    </div>
+  </div>
+</section>    
+
+<!-- ==========================================challenges-section ======================================================-->
+
+<section id="challenges" class="challenges-section"  style="background-image:url(./assets/img/backgrn.jpg)" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h2>How Do IoT Devices Work?</h2>
+        <p>
+          Although the purposes of various IoT devices vary, they all operate in similar ways. IoT devices are physical objects that sense events occurring in the real world. They typically connect to a Dynamic Host Configuration Protocol server and have an integrated CPU, network adapter, and firmware.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <img src="./assets/img/secondPage/iot-devices.jpg" alt="IoT Image" class="iot-image" style=" height: 286px;
+        width: 305px;
+        border-radius: 20px;
+        margin-top: 19px;" />
+      </div>
+    
+      <div class="col-lg-4">
+        <h2>Examples of IoT Devices</h2>
+        <ul class="iot-devices-list">
+          <li><i class="bi bi-shield-fill"></i> Home Security</li>
+         
+          <li><i class="bi bi-tools"></i> Industrial Security and Safety</li>
+          <li><i class="bi bi-megaphone"></i> Motion Detection</li>
+          <li><i class="bi bi-lightning-charge-fill"></i> Smart Lighting</li>
+ 
+          <li><i class="bi bi-gear-wide-connected"></i> Connected Appliances</li>
+          <li><i class="bi bi-camera-video-fill"></i> Surveillance Systems</li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="benefitss" class="benefits-section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>What Are The Benefits Of IoT To Organizations?</h2>
+        <ul class="iot-benefits-list">
+          <li>In order to monitor their entire business operations.</li>
+          <li>Boost customer experience (CX).</li>
+          <li>Save time and money.</li>
+          <li>Increase staff productivity.</li>
+          <li>Integrate and adapt business models.</li>
+          <li>Improve business decisions.</li>
+          <li>And increase revenue.</li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <img src="./assets/img/secondPage/iot2.jpg" class="iot-image" alt="Image">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===============================================footer==================================================== -->
+  <footer id="footer" class="bg-dark text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>V2SK</h3>
+            </div>
+            <div class="col-md-12">
+              <ul style="list-style-type: none; padding-left: 0">
+                <li><a href="#">HELPFUL LINKS</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">CAREER</a></li>
+                <li><a href="#">REACH TO US</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4>CONNECT WITH US</h4>
+          <div class="social-links">
+            <a href="https://twitter.com/V2sktechno" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.facebook.com/V2SKTechnoPvtLtd/?ref=pages_you_manage" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/v2sktechnopvtltd/" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCOwZQa8hH-12AUlxsZFzWGw" class="youtube"><i class="bx bxl-youtube"></i></a>
+            <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F36156963%2Fadmin%2F" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4>CONTACT INFORMATION</h4>
+          <div class="contact-info">
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <a href="#" class="bx bx-envelope"></a>
+                Email
+                <p>
+                  <a href="mailto:consultants@v2sk.in">consultants@v2sk.in</a>
+                </p>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="bx bx-phone"></a>
+                Phone
+                <p><a href="tel:+919953127347">+91 9953127347</a></p>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="bx bx-map"></a>
+                Address
+                <p class="mb-4">
+                  Aravalli Tower, Mandi Estate, Mandi Village, New Delhi,
+                  110047, India.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="bx bx-globe"></a>
+                Website
+                <p><a href="http://www.v2sk.in">www.v2sk.in</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2023 V2SK. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
